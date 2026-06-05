@@ -1,0 +1,22 @@
+data_root: "./mini_data"
+img_size: 128
+batch_size: 1
+num_workers: 0
+epochs: 20
+lr: 0.0001
+weight_decay: 0.0001
+amp: true
+save_interval: 1
+vis_interval: 1
+device: "cuda"
+
+loss_weights:
+  lambda_intensity: 1.0
+  lambda_gradient: 5.0
+  lambda_color: 1.0
+  lambda_thermal: 2.0
+
+output:
+  checkpoint_dir: "./checkpoints/local"
+  result_dir: "./results/local"
+  log_dir: "./logs/local"

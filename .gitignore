@@ -1,0 +1,32 @@
+# 数据集
+data/
+MSRS-main/
+mini_data/
+mini_overfit_data/
+
+# 模型权重
+checkpoints/
+
+# 结果文件
+results/
+
+# 日志
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 临时文件
+*.tmp
+*.bak
