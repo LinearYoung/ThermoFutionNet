@@ -20,6 +20,22 @@
 - 最终损失：0.1-0.2
 - 测试结果：已生成 `results/test_4090/`，包含融合图像和对比图
 
+## 结果展示
+
+以下是模型在测试集上的融合结果示例，每幅图从左到右依次为：**可见光图像 | 红外图像 | 注意力权重图 | 融合结果**
+
+### 示例1：人物检测场景
+![融合结果1](results/test_4090/compare/compare_0017_00095D.png)
+
+### 示例2：室外场景
+![融合结果2](results/test_4090/compare/compare_0122_00587D.png)
+
+### 示例3：建筑场景
+![融合结果3](results/test_4090/compare/compare_0167_00794N.png)
+
+### 示例4：自然场景
+![融合结果4](results/test_4090/compare/compare_0188_00882N.png)
+
 ## 项目简介
 
 ThermoFusionNet 采用双分支Encoder-Decoder架构，能够融合可见光图像的色彩和纹理信息，同时突出红外图像中的热源区域。
